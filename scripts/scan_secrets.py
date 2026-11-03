@@ -42,3 +42,4 @@ print(f"Scanned files in {ROOT}")
 print(f"Total potential secret findings: {len(findings)}")
 for fpath, desc, masked in findings:
     print(f"  {fpath}: {desc} (Value starts with: {masked})")
+

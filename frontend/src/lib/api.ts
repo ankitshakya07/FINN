@@ -13,9 +13,9 @@ export function getApiBase(): string {
     return process.env.NEXT_PUBLIC_API_BASE_URL;
   }
   if (typeof window !== "undefined" && window.location?.hostname) {
-    return `http://${window.location.hostname}:8000`;
+    return `http://${window.location.hostname}:8013`;
   }
-  return "http://localhost:8000";
+  return "http://localhost:8013";
 }
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {

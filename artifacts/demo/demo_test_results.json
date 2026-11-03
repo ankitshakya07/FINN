@@ -1,0 +1,14 @@
+{
+  "mobile_overflow_passed": true,
+  "desktop_overflow_passed": true,
+  "flow1_brief_loaded": true,
+  "flow2_filters_and_expansion": true,
+  "flow3_research_company_filing": true,
+  "flow4_watch_interactions": true,
+  "flow5_ask_query": true,
+  "flow6_navigation_all_sections": true,
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "overflow_details": []
+}

@@ -77,3 +77,4 @@ if push_res.returncode == 0:
 else:
     print(f"\nERROR: git push failed with exit code {push_res.returncode}")
     sys.exit(push_res.returncode)
+

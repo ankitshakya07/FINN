@@ -22,3 +22,4 @@ print(f"Total commit size: {total_bytes / (1024*1024):.2f} MB")
 print(f"Files over 500KB ({len(large_files)}):")
 for f, sz in sorted(large_files, key=lambda x: -x[1]):
     print(f"  {f}: {sz / 1024:.1f} KB")
+
