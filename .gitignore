@@ -1,0 +1,157 @@
+# ==============================================================================
+# FINN — Professional .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Secrets & Local Configuration
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.local
+*.pem
+*.key
+*.cert
+*.crt
+
+# Always keep example templates tracked
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ------------------------------------------------------------------------------
+# Python & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+backend/.venv/
+backend/.venv*/
+
+# Offline dependency archives & wheels
+backend/wheelhouse/
+backend/*.zip
+*.whl
+
+# Testing, typing & linting caches
+.pytest_cache/
+.pytest_tmp/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ------------------------------------------------------------------------------
+# Node.js & Next.js
+# ------------------------------------------------------------------------------
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+frontend/out/
+build/
+frontend/build/
+dist/
+frontend/dist/
+
+# Next.js build cache & logs
+tsconfig.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# Local Databases & Runtime Storage
+# ------------------------------------------------------------------------------
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+finn.db
+backend/finn.db
+.runtime-verification.db
+backend/.runtime-verification.db
+
+# ------------------------------------------------------------------------------
+# Runtime Caches & Local Downloads
+# ------------------------------------------------------------------------------
+data/cache/
+data/cache/**
+*.tmp
+*.temp
+
+# Explicitly ensure required demo fixtures and configurations are preserved
+!data/fixtures/
+!data/fixtures/**
+!data/snapshots/
+!data/snapshots/**
+!data/portfolio.json
+
+# ------------------------------------------------------------------------------
+# Browser Profiles & Headless Automation Artifacts
+# ------------------------------------------------------------------------------
+artifacts/*-profile/
+artifacts/*-profile*/
+artifacts/cdp-profile/
+artifacts/chrome-profile/
+artifacts/chrome-profile-desktop/
+artifacts/edge-profile/
+*-profile/
+*-profile*/
+
+# ------------------------------------------------------------------------------
+# Operating System & IDE Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~

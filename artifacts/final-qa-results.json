@@ -1,0 +1,11 @@
+{
+  "healthcheck": true,
+  "mobile390Overflow": true,
+  "briefFeedItems": true,
+  "askAssistant": true,
+  "watchAnomalies": true,
+  "researchModules": true,
+  "tablet768Overflow": true,
+  "desktop1280Overflow": true,
+  "allPassed": true
+}

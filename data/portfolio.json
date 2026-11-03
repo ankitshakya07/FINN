@@ -1,0 +1,23 @@
+[
+  {"ticker": "RELIANCE", "name": "Reliance Industries Limited", "sector": "Energy & Conglomerate"},
+  {"ticker": "TCS", "name": "Tata Consultancy Services Limited", "sector": "IT Services"},
+  {"ticker": "INFY", "name": "Infosys Limited", "sector": "IT Services"},
+  {"ticker": "HDFCBANK", "name": "HDFC Bank Limited", "sector": "Banking"},
+  {"ticker": "ICICIBANK", "name": "ICICI Bank Limited", "sector": "Banking"},
+  {"ticker": "SBIN", "name": "State Bank of India", "sector": "Banking"},
+  {"ticker": "BAJFINANCE", "name": "Bajaj Finance Limited", "sector": "Financial Services"},
+  {"ticker": "SUNPHARMA", "name": "Sun Pharmaceutical Industries Limited", "sector": "Pharmaceuticals"},
+  {"ticker": "MARUTI", "name": "Maruti Suzuki India Limited", "sector": "Automobile"},
+  {"ticker": "M&M", "name": "Mahindra & Mahindra Limited", "sector": "Automobile"},
+  {"ticker": "LT", "name": "Larsen & Toubro Limited", "sector": "Infrastructure & Engineering"},
+  {"ticker": "ITC", "name": "ITC Limited", "sector": "FMCG & Conglomerate"},
+  {"ticker": "HINDUNILVR", "name": "Hindustan Unilever Limited", "sector": "FMCG"},
+  {"ticker": "TITAN", "name": "Titan Company Limited", "sector": "Consumer Goods & Retail"},
+  {"ticker": "TRENT", "name": "Trent Limited", "sector": "Retail"},
+  {"ticker": "APOLLOHOSP", "name": "Apollo Hospitals Enterprise Limited", "sector": "Healthcare"},
+  {"ticker": "DIXON", "name": "Dixon Technologies (India) Limited", "sector": "Electronics Manufacturing"},
+  {"ticker": "POLYCAB", "name": "Polycab India Limited", "sector": "Electrical Equipment"},
+  {"ticker": "PERSISTENT", "name": "Persistent Systems Limited", "sector": "IT Services"},
+  {"ticker": "SUZLON", "name": "Suzlon Energy Limited", "sector": "Renewable Energy"}
+]
+
